@@ -62,7 +62,7 @@ import java.util.*;
       }
 
       public static void main(String[] args) {
-        List<GrantEvent> events = new Arrays.asList(
+        List<GrantEvent> events =  Arrays.asList(
             new GrantEvent("E1", "G100", 1, "APPROVED"),
             new  GrantEvent("E2","G200", 2,"IN_REVIEW" )
         );
